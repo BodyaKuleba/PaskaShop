@@ -18,21 +18,39 @@
 
 <body>
     <div class="wrap">
+        <div class="fullCartMenu">
+            <div class="FCMHeader">
+                <div class="FCMTextDiv">
+                    <div id="FCMCount" class="FCMCount">0</div>
+                    <div id="FCMPrice" class="FCMPrice">0 грн</div>
+                </div>
+                <button class="closeBtnStyle" id="FCMHCloseBtn"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="FCMMain">
+                <div class="FCMMLeft"></div>
+                <div class="FCMMRight"></div>
+            </div>
+            <div class="FCMFooter"></div>
+        </div>
         <div class="cartMenu">
             <div class="CMHeader">
-                <div class="CMCount">132</div>
-                <button id="CMCloseBtn"><i class="fa-solid fa-xmark"></i></button>
+                <div class="CMTextDiv">
+                    <div id="CMCount" class="CMCount">0</div>
+                    <div id="CMPrice" class="CMPrice">0 грн</div>
+                </div>
+                <button class="closeBtnStyle" id="CMCloseBtn"><i class="fa-solid fa-xmark"></i></button>
             </div>
-            <div class="CMList"></div>
+            <div class="CMList">
+            </div>
             <div class="CMFooter">
                 <button id="sizeBtn"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></button>
-                <button>Замовити</button>
+                <button class="CMBuyBtn">Замовити</button>
             </div>
         </div>
         <div class="header">
             <button id="cartBtn" class="cartDiv">
                 <i id="cartBtnIcon" class="fa-solid fa-cart-shopping"></i>
-                <div class="cartDivCount">132</div>
+                <div class="cartDivCount">0</div>
             </button>
         </div>
         <!-- <div class="homePage"></div> -->
